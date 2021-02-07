@@ -1,0 +1,24 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "Downloads and extracts info from webpages.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevindong/scraper.git"
+  },
+  "author": "Kevin Dong",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kevindong/scraper/issues"
+  },
+  "homepage": "https://github.com/kevindong/scraper#readme",
+  "dependencies": {
+    "@types/fs-extra": "^9.0.6",
+    "fs-extra": "^9.1.0",
+    "node-fetch": "^2.6.1"
+  }
+}
